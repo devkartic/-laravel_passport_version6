@@ -40,11 +40,16 @@ return [
             'driver' => 'session',
             'provider' => 'users',
         ],
-
-        'api' => [
+//        Default Api
+        /*'api' => [
             'driver' => 'token',
             'provider' => 'users',
             'hash' => false,
+        ],*/
+//        Custom By Dev.kartic
+        'api' => [
+            'driver' => 'passport',
+            'provider' => 'users',
         ],
     ],
 
